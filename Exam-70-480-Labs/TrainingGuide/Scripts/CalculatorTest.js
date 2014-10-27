@@ -6,6 +6,7 @@ test("Initialize Test", function () {
     txtInput.value = '';
     txtResult.value = '';
     var expected = '0';
+    initialize();
     equal(txtInput.value, expected, 'Expected value: ' + expected +
     ' Actual value: ' + txtInput.value);
     equal(txtResult.value, expected, 'Expected value: ' + expected +
