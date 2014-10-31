@@ -59,6 +59,8 @@
   <ItemGroup>
     <Content Include="Lesson3\CalculatorTests.html" />
     <Content Include="Lesson3\default.html" />
+    <Content Include="Lesson4\Content\default.css" />
+    <Content Include="Lesson4\default.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
