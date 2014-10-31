@@ -28,18 +28,21 @@ function numberClick() {
     this.innerText : txtInput.value + this.innerText;
 }
 function plusClick() {
-    txtResult.value = Number(txtResult.value) + Number(txtInput.value);
+    // txtResult.value = Number(txtResult.value) + Number(txtInput.value);
+    calculateClick();
     operator = '+';
     clearEntry();
 }
 function minusClick() {
-    txtResult.value = Number(txtResult.value) - Number(txtInput.value);
+  //  txtResult.value = Number(txtResult.value) - Number(txtInput.value);
+    calculateClick();
     operator = '-';
     clearEntry();
 }
 function multiplyClick() {
     if (txtInput.value != '0')
-      txtResult.value = txtInput.value;
+        txtResult.value = txtInput.value;
+    calculateClick();
     operator = '*';
     clearEntry();
 }
