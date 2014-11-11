@@ -57,13 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Lesson3\CalculatorTests.html" />
-    <Content Include="Lesson3\default.html" />
-    <Content Include="Lesson4\Content\default.css" />
-    <Content Include="Lesson4\default.html" />
-    <Content Include="Lesson5\Content\default.css" />
-    <Content Include="Lesson5\default.html" />
-    <Content Include="Lesson5\images\contoso_logo.png" />
+    <Content Include="Chapter3\CalculatorTests.html" />
+    <Content Include="Chapter3\default.html" />
+    <Content Include="Chapter4\Content\default.css" />
+    <Content Include="Chapter4\default.html" />
+    <Content Include="Chapter5\Content\default.css" />
+    <Content Include="Chapter5\default.html" />
+    <Content Include="Chapter5\images\contoso_logo.png" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -74,7 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\qunit.css" />
-    <Content Include="Lesson2\default.html" />
+    <Content Include="Chapter2\default.html" />
     <Content Include="Scripts\CalculatorLibrary.js" />
     <Content Include="Scripts\CalculatorTest.js" />
     <Content Include="Scripts\default.js" />
