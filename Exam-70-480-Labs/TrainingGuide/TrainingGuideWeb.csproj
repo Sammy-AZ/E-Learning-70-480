@@ -64,7 +64,15 @@
     <Content Include="Chapter5\Content\default.css" />
     <Content Include="Chapter5\default.html" />
     <Content Include="Chapter5\images\contoso_logo.png" />
+    <Content Include="Chapter6\CalculatorTests.html" />
+    <Content Include="Chapter6\Content\default.css" />
+    <Content Include="Chapter6\default.html" />
+    <Content Include="Chapter6\images\contoso_logo.png" />
     <Content Include="packages.config" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,6 +88,7 @@
     <Content Include="Scripts\default.js" />
     <Content Include="Scripts\qunit.js" />
     <Content Include="Scripts\tests.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,10 @@
-﻿module('Calculator Test Suite', { setup: function () { initialize(); } });
+﻿/// <reference path="_references.js" />
+
+module('Calculator Test Suite', {
+    setup: function () {
+        calculatorNamespace.initialize();
+    }
+});
 
 
 test("Initialize Test", function () {
