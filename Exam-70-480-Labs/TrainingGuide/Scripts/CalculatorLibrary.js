@@ -1,20 +1,11 @@
 ﻿/// <reference path="_references.js" />
 
 (function () {
-    th.calculatorNameSpace = th.calculatorNameSpace || {};
-    var ns = th.calculatorNameSpace;
-
-
-
+    this.calculatorNamespace = this.calculatorNamespace || {};
+    var ns = this.calculatorNamespace;
 
     var operator;
-
-
-
-
-
-
-    function initialize() {
+    ns.initialize = function() {
 
         var calculator = new ns.Calculator();
 
@@ -51,7 +42,7 @@
 
         //document.getElementById('btnClear').addEventListener('click', clear, false);
         $('#btnClear').on('click', calculator.clear);
-        clear();
+        calculator.clear();
     }
 
     ns.Calculator = (function () {
@@ -67,20 +58,23 @@
             /*txtInput.value = txtInput.value == '0' ?
             this.innerText : txtInput.value + this.innerText;*/
 
-            $('#txtInput').val($('#txtInput').val() == '0'?
+           /* $('#txtInput').val($('#txtInput').val() == '0'?
                 $(this).text()  : $('#txtInput').val + $(this).text()
-                );
+                );*/
+
+            $('#txtInput').val($('#txtInput').val() == '0' ?
+                            $(this).text() : $('#txtInput').val() + $(this).text());
         };
 
         Calculator.prototype.plusClick = function () {
 
-            calculateClick();
+            Calculator.prototype.calculateClick();
             operator = '+';
             Calculator.prototype.clearEntry();
         };
 
         Calculator.prototype.minusClick = function () {
-            calculateClick();
+            Calculator.prototype.calculateClick();
             operator = '-';
             Calculator.prototype.clearEntry();
         };
@@ -94,7 +88,7 @@
                 $('#txtResult').val($('#txtInput').val());
 
 
-            calculateClick();
+            Calculator.prototype.calculateClick();
             operator = '*';
             Calculator.prototype.clearEntry();
         };
@@ -132,7 +126,7 @@
                 default:
                     break;
             }
-            clearEntry();
+            Calculator.prototype.clearEntry();
         };
 
         Calculator.prototype.clearEntry = function () {
