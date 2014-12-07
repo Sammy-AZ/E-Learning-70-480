@@ -27,6 +27,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ContosoWeb", "http://localh
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "chat_service", "http://localhost:55607", "{F30583AF-AB02-461F-A48F-A0AC55CDF145}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55607"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\Visual Studio 2013\WebSites\chat_service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55607\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55607"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\Visual Studio 2013\WebSites\chat_service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55607\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\Documents\Visual Studio 2013\WebSites\chat_service\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +62,10 @@ Global
 		{FCC94C9E-6DC2-4AF7-8436-3BA55435D58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC94C9E-6DC2-4AF7-8436-3BA55435D58C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{FCC94C9E-6DC2-4AF7-8436-3BA55435D58C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F30583AF-AB02-461F-A48F-A0AC55CDF145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30583AF-AB02-461F-A48F-A0AC55CDF145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30583AF-AB02-461F-A48F-A0AC55CDF145}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30583AF-AB02-461F-A48F-A0AC55CDF145}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
